@@ -166,7 +166,7 @@ class BinOpNode:
 class Parser:
     def __init__(self, tokens):
         self.tokens = tokens
-        self.tok_idx = 1
+        self.tok_idx = -1
         self.advance()
     
     def advance(self, ):
